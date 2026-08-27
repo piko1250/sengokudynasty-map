@@ -55,8 +55,8 @@ const mapDataScale = 1.166;
 const mapHomeWidth = 3840 / mapDataScale;
 const mapHomeHeight = 2160 / mapDataScale;
 let mapHomeBounds = {
-    x: 1654 / mapDataScale - mapHomeWidth / 2,
-    y: 1468 / mapDataScale - mapHomeHeight / 2,
+    x: 2078 / mapDataScale - mapHomeWidth / 2,
+    y: 714 / mapDataScale - mapHomeHeight / 2,
     w: mapHomeWidth,
     h: mapHomeHeight
 };
@@ -72,7 +72,7 @@ function mapViewCenter() {
     const scaleW = windowW / mapHomeBounds.w;
     const scaleH = windowH / mapHomeBounds.h;
 
-    let defaultScale = Math.max(scaleW, scaleH) * 1.5;
+    let defaultScale = Math.max(scaleW, scaleH) * 2.5;
     mapScaleCurrent = Math.min(defaultScale, mapHomeMaxScale);
 
     mapTransX = windowW / 2 - (mapHomeBounds.x + mapHomeBounds.w / 2) * mapScaleCurrent;
