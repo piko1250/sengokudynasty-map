@@ -1081,8 +1081,8 @@ let locations = [
     {
         "category": "other",
         "type": "unknown",
-        "x": 2691,
-        "y": 1556,
+        "x": 2700,
+        "y": 1552,
         "name": {
             "ja": "大きな担ぎ屋台",
             "en": "Large Portable Trader Stand"
